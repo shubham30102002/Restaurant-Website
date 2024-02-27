@@ -8,6 +8,7 @@ export default {
         primaryDark: "#BB2C51",
         secondary: "#21D4B9",
         dark: "#303030",
+        customRed: "#0ea5e9",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

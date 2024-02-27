@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCaretDown, FaUser } from "react-icons/fa"
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
   const NavLinks = [
     {
       id: 1,
@@ -88,7 +88,9 @@ const Navbar = () => {
 
             {/* login button  */}
             <li>
-              <button className="flex justify-center items-center gpa-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300 ">
+              <button 
+              onClick={handleOrderPopup}
+              className="flex justify-center items-center gpa-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300 ">
                 <FaUser />
                 My Account
               </button>

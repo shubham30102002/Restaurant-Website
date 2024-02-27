@@ -18,7 +18,7 @@ const Banner = () => {
 
         {/* content section  */}
           <div className="space-y-10 ">
-            <div className="grid grid-cols-1 sm:gird-cols-2 gap-4 py-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-10">
               <div>
                 <p>
                   {" "}
@@ -34,7 +34,7 @@ const Banner = () => {
           
           
             <div className="space-y-10 ">
-            <div className="grid grid-cols-1 sm:gird-cols-2 gap-4 py-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-10">
               <div></div>
               <div>
                 <p>

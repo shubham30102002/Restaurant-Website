@@ -30,11 +30,11 @@ const App = () => {
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero />
       <Banner />
-      {/* <Services />
-      <About handleOrderPopup={handleOrderPopup} />
+      <Services />
+      <About handleOrderPopup = {handleOrderPopup} />
       <Banner />
       <Footer />
-      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />  */}
+      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} /> 
     </div>
   );
 };
