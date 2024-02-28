@@ -1,45 +1,48 @@
 import React from "react";
 import { FaCaretDown, FaUser } from "react-icons/fa"
 
+
+const NavLinks = [
+  {
+    id: 1,
+    name: "Home",
+    link: "/#"
+  },
+  {
+    id: 1,
+    name: "About",
+    link: "/#"
+  },
+  {
+    id: 1,
+    name: "Contact",
+    link: "/#"
+  },
+];
+
+
+const DropdownLinks = [
+  {
+    id: 1,
+    name: "Vegetables",
+    link: "/#"
+  },
+  {
+    id: 2,
+    name: "Fruits",
+    link: "/#"
+  },
+  {
+    id: 3,
+    name: "Grains",
+    link: "/#"
+  },
+]
+
 const Navbar = ({handleOrderPopup}) => {
-  const NavLinks = [
-    {
-      id: 1,
-      name: "Home",
-      link: "/#"
-    },
-    {
-      id: 1,
-      name: "About",
-      link: "/#"
-    },
-    {
-      id: 1,
-      name: "Contact",
-      link: "/#"
-    },
-  ];
 
-
-  const DropdownLinks = [
-    {
-      id: 1,
-      name: "Vegetables",
-      link: "/#"
-    },
-    {
-      id: 2,
-      name: "Fruits",
-      link: "/#"
-    },
-    {
-      id: 3,
-      name: "Grains",
-      link: "/#"
-    },
-  ]
   return (
-    <div className="bg-white shadow-md">
+    <div data-aos="fade" className="bg-white shadow-md">
       <div className="container flex justify-between py-4 sm:py-3 ">
         <div className="font-bold text-3xl">
           Logo

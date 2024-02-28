@@ -16,12 +16,12 @@ const About = ({handleOrderPopup}) => {
   return (<div>
     <div style={bgStyle} className="py-14 ">
       <div className="container min-h-[500px] relative z-10">
-        <h1 className="pt-20 tracking-wider text-4xl font-semibold text-white text-center">
+        <h1 data-aos="fade" className="pt-20 tracking-wider text-4xl font-semibold text-white text-center">
           About Us
         </h1>
 
         {/* card section  */}
-        <div className="bg-white/80 p-10 my-10">
+        <div data-aos="fade" data-aos-delay="300" className="bg-white/80 p-10 my-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus blanditiis culpa ipsa autem! Quas in ut cumque quo, eum ab ea inventore voluptatum at dignissimos repellat placeat quaerat veniam fugit? Quasi quidem, saepe tenetur quam nihil velit nobis eum ad hic odio mollitia itaque consectetur eaque unde cumque possimus reprehenderit quas beatae praesentium consequatur? Eum magni doloremque obcaecati necessitatibus soluta doloribus quos temporibus aperiam, at harum earum, commodi, eligendi omnis fugiat error exercitationem ullam labore culpa aliquam possimus pariatur? Atque repudiandae beatae animi ducimus voluptate minima temporibus neque libero dolore ipsam, accusamus omnis ullam id aspernatur, quas fuga esse.
         <div className="pt-10 flex justify-center">
         <button 

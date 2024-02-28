@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Banner from "./components/Banner/Banner.jsx";
@@ -9,14 +9,16 @@ import Popup from "./components/Popup/Popup.jsx";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+
 const App = () => {
-  const [orderPopup, setOrderPopup] = React.useState(false);
+  const [orderPopup, setOrderPopup] = useState(false);
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
