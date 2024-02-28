@@ -18,8 +18,8 @@ const Footer = () => {
                 <IoLocationSharp className="text-5xl " />
               </div>
               <p>
-              #92, 3rd Main, Virgo Nagar, Post,<br/>
-Seegehalli, Bengaluru, Karnataka 560049
+              200 Lamigton Road, Nr Minerva Cinema,<br/> 
+              Grant Road, Mumbai Maharashtra 400007
               </p>
             </div>
 
@@ -49,7 +49,7 @@ Seegehalli, Bengaluru, Karnataka 560049
         
         {/* copyright section  */}
         <div className="flex justify-between p-4 items-center">
-          <p>© 2024 TCJ. All rights reserved</p>
+          <p>© 2024 SRG. All rights reserved</p>
           <div className="flex items-center gap-6">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>

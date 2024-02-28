@@ -23,7 +23,7 @@ const Hero = () => {
             {/* text content section  */}
             <div className="space-y-7 text-dark order-2 sm:order-1 ">
               <h1 data-aos="fade-up" className="text-5xl">
-                Fresh & Healthy Meal Plan <span className="text-secondary font-cursive text-7xl">Delivery</span>{" "} in Miami
+                Fresh & Healthy Meal Plan <span className="text-secondary font-cursive text-7xl">Delivery</span>{" "} in Paris
               </h1>
               <p data-aos="fade-up" data-aos-delay ="300" className="lg:pr-64">
                 Delicious Meals Delivered to Your Door From $132.95 per week

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCaretDown, FaUser } from "react-icons/fa"
-
+import logo from "../../assets/Logo.png"
 
 const NavLinks = [
   {
@@ -44,8 +44,8 @@ const Navbar = ({handleOrderPopup}) => {
   return (
     <div data-aos="fade" className="bg-white shadow-md">
       <div className="container flex justify-between py-4 sm:py-3 ">
-        <div className="font-bold text-3xl">
-          Logo
+        <div >
+          <img src={logo} alt="Logo" className="w-[100%] h-[50px]"/>
         </div>
         {/* NavLink Section  */}
         <div>
